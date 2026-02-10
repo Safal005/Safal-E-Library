@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safal's E-Library - Book Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>📖</text></svg>">
+</head>
+<body>
+<div id="navbar-container">
+    <nav class="navbar">
+        <div class="lhs">
+            <a href="dashboard.html" style="text-decoration:none; color:black;">
+                ⬅ Back to Dashboard
+            </a>
+        </div>
+        <div class="rhs">
+            <a href="dashboard.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</div>
+<div class="book-details-wrapper">
+    <div class="book-details-card">
+
+        <div class="book-image-section">
+            <img id="book-image" src="" alt="Book Image">
+        </div>
+
+        <div class="book-info-section">
+            <h1 id="book-title"><i class="fa-solid fa-book-open"></i> <span id="book-title-text">Book Title</span></h1>
+            <h3 id="book-author">Author Name</h3>
+            <p id="book-description">Description here...</p>
+            <p id="book-price">$0.00</p>
+            <button class="buy-btn" id="buy-btn">Buy Now</button>
+        </div>
+
+    </div>
+</div>
+<hr>
+
+<h2>You may also like</h2>
+
+<div class="related-books books-container">
+    <div class="books" data-id="2">
+        <img src="./images/atomic.jpeg" alt="Atomic Habits">
+        <p>Atomic Habits</p>
+    </div>
+
+    <div class="books" data-id="3">
+        <img src="./images/rdpd.jpg" alt="Rich Dad Poor Dad">
+        <p>Rich Dad Poor Dad</p>
+    </div>
+
+    <div class="books" data-id="4">
+        <img src="./images/harry.jpg" alt="Harry Potter">
+        <p>Harry Potter</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

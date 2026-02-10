@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safal's E-Library - Forgot Password</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🔑</text></svg>">
+</head>
+<body class="forgot-page">
+    <form action="#" class="login-form">
+        <div class="login-container forgot-container">
+            <h1><i class="fa-solid fa-key"></i> Reset Password</h1>
+
+            <label for="username" class="user-pass">Username</label>
+            <input type="text" name="username" placeholder="E-mail or Username" class="input-field">
+
+            <label for="telephone" class="user-pass">Mobile Number</label>
+            <div class="mobile-input">
+                <select>
+                    <option value="+1">🇺🇸 US +1</option>
+                    <option value="+44">🇬🇧 UK +44</option>
+                    <option value="+977">🇳🇵 Nepal +977</option>
+                    <option value="+91">🇮🇳 India +91</option>
+                </select>
+                <input type="tel" placeholder="Enter phone number" class="input-field">
+            </div>
+
+            <button type="submit" class="sign-in">Send OTP</button>
+
+            <p class="links">
+                Didn't get a code? <a href="forgotpass.html" class="forgot-pass">Resend Code</a><br>
+                <a href="index.html" class="forgot-pass">Back to Login</a>
+            </p>
+        </div>
+    </form>
+</body>
+</html>

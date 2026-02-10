@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safal's E-Library - Dashboard</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>📚</text></svg>">
+</head>
+<body id="dashboard-page" >
+    <div id="navbar-container">
+        <nav class="navbar">
+            <div class="lhs">
+                <div class="profile-dropdown">
+                    <button class="profile-btn" id="profile-btn">👤 Profile</button>
+                    <ul id="profile-menu">
+                        <li class="profile-items profile-username">Username</li>
+                        <li class="profile-items profile-logout" id="logout-button">Logout</li>
+                    </ul>
+                
+                </div>
+                <p class="welcome-text">Welcome to the Book Library 📚</p>
+            
+            </div>
+            <div class="rhs">
+                <input type="text" placeholder="Search Books..." class="search-book">
+                <button class="search-btn">🔍</button>
+                <a href="dashboard.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="contact.html">Contact </a>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="dashboard-contents">
+        <h1><i class="fa-solid fa-book"></i> Explore Our Books</h1>
+        <div class="books-container">
+
+             <div class="books" data-id="1">
+            <img src="./images/adaline.jpg" class="book-img" alt="The Age Of Adaline By  Lee Toland Krieger ">
+                <h3>The Age Of Adaline</h3>
+                <p>Author:   Lee Toland Krieger </p>
+            </div>
+
+            <div class="books" data-id="2">
+            <img src="./images/atomic.jpeg" class="book-img" alt=" Atomic Habits by James Clear">
+                <h3>Atomic Habits</h3>
+                <p>Author: James Clear</p>
+            </div>
+
+            <div class="books" data-id="3">
+            <img src="./images/rdpd.jpg" class="book-img" alt="Rich Dad Poor Dad By Robert Kiyosaki and Sharon L. Lechter">
+                <h3>Rich Dad Poor Dad</h3>
+                <p>Author: Robert Kiyosaki and Sharon L. Lechter</p>
+            </div>
+            
+            <div class="books" data-id="4">
+             <img src="./images/harry.jpg" class="book-img" alt="Harry Potter and the Sorcerer's Stone By  J.K. Rowling">
+                <h3>Harry Potter and the Sorcerer's Stone</h3>
+                <p>Author:  J.K. Rowling</p>
+            </div>
+            
+            <div class="books" data-id="5">
+            <img src="./images/lettinggo.jpeg" class="book-img" alt="Letting Go By Philip Roth">
+                <h3>Letting Go</h3>
+                <p>Author:  Philip Roth</p>
+            </div>
+            
+            <div class="books" data-id="6">
+            <img src="./images/365.jpg" class="book-img" alt="365 Days: A Novel (1) (365 Days Bestselling Series) By  Blanka Lipinska ">
+                <h3>365 Days</h3>
+                <p>Author:  J.K. Rowling</p>
+            </div>
+            
+            <div class="books" data-id="7">
+            <img src="./images/mod.jpg" class="book-img" alt="Masters of Death Olivie Blake">
+                <h3>Masters of Death</h3>
+                <p>Author:  J.K. Rowling</p>
+            </div>
+            
+            <div class="books" data-id="8">
+            <img src="./images/lk.jpg" class="book-img" alt="The Lion King (Disney the Lion King) By  Ayush Tamang">
+                <h3>The Lion King</h3>
+                <p>Author:  Irene Mecchi, Jonathan Roberts, and Linda Woolverton</p>
+            </div>
+            
+            <div class="books" data-id="9">
+            <img src="./images/harry2.jpeg" class="book-img" alt="Harry Potter and the Philosopher's Stone By  J.K. Rowling">
+                <h3>Harry Potter and the Philosopher's Stone</h3>
+                <p>Author:  J.K. Rowling</p>
+            </div>
+            
+            <div class="books" data-id="10">
+            <img src="./images/diary.jpg" class="book-img" alt="The Diary of a Young Girl By  J.K. Rowling">
+                <h3>The Diary of a Young Girl     </h3>
+                <p>Author:  J.K. Rowling</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2026 Safal Khanal. All rights reserved.</p>
+        <div class="footer-icons">
+            <a href="#"><i class ="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.github.com/"><i class ="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/"><i class ="fa-brands fa-facebook "></i></a>
+            <a href="https://www.x.com/"><i class ="fa-brands fa-x "></i></a>
+            <a href="https://www.instagram.com/"><i class ="fa-brands fa-instagram "></i></a>
+        </div>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
